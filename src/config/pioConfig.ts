@@ -3,7 +3,7 @@ import type { Live2DWidgetConfig, SpineModelConfig } from "../types/pioConfig";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: true,
+	enable: false,
 
 	// Spine模型配置
 	model: {
@@ -90,9 +90,9 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 	model: [
 		{
 			// Live2D模型本地文件路径
-			path: "/pio/models/live2d/snow_miku/model.json",
+			path: "/pio/models/live2d/bilibili-33/index.json",
 			// 动作声音音量 范围0~1，默认 0（静音）
-			volume: 0,
+			volume: 0.5,
 			// 模型缩放比例
 			scale: 1,
 			// X轴偏移，范围 -2~2，正值向右
