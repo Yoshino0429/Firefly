@@ -29,10 +29,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Categories,
 
 			// 标签
-			LinkPresets.Tags,
+			//LinkPresets.Tags,
 
 			// 系列
-			LinkPresets.Series,
+			//LinkPresets.Series,
 		],
 	});
 
@@ -110,16 +110,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "Bilibili",
+				url: "https://space.bilibili.com/423183446?spm_id_from=333.337.0.0",
 				external: true,
 				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
 			},
 		],
 	});

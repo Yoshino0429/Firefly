@@ -132,7 +132,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-09-18",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -185,7 +185,7 @@ export const siteConfig: SiteConfig = {
 			// 是否显示分类
 			showCategory: true,
 			// 是否显示标签
-			showTags: true,
+			showTags: false,
 			// 标签数量，设为 0 则不限制
 			tagCount: 3,
 			// 是否显示字数
