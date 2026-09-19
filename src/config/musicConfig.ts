@@ -12,13 +12,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "local",
 
 	// 默认音量 (0-1)
-	volume: 0.7,
+	volume: 0.5,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
 	playMode: "list",
 
 	// 是否显启用歌词
-	showLyrics: false,
+	showLyrics: true,
 
 	// Meting API 配置
 	meting: {
@@ -48,10 +48,26 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "憂、燦々",
+				artist: "ヨルシカ",
+				url: "/assets/music/ヨルシカ - 憂、燦々.mp3",
+				cover: "/assets/music/cover/1.jpg",
+				lrc: "",
+			},
+
+			{
+				name: "また夏を追う",
+				artist: "あたらよ",
+				url: "/assets/music/あたらよ - また夏を追う.mp3",
+				cover: "/assets/music/cover/2.jpg",
+				lrc: "",
+			},
+
+			{
+				name: "すべりだい",
+				artist: "椎名林檎",
+				url: "/assets/music/椎名林檎 - すべりだい.mp3",
+				cover: "/assets/music/cover/3.jpg",
 				lrc: "",
 			},
 		],
