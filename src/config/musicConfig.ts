@@ -52,7 +52,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				artist: "ヨルシカ",
 				url: "/assets/music/ヨルシカ - 憂、燦々.mp3",
 				cover: "/assets/music/cover/1.jpg",
-				lrc: "",
+				lrc: "/assets/music/lrc/1.lrc",
 			},
 
 			{
@@ -60,7 +60,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				artist: "あたらよ",
 				url: "/assets/music/あたらよ - また夏を追う.mp3",
 				cover: "/assets/music/cover/2.jpg",
-				lrc: "",
+				lrc: "/assets/music/lrc/2.lrc",
 			},
 
 			{
@@ -68,7 +68,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				artist: "椎名林檎",
 				url: "/assets/music/椎名林檎 - すべりだい.mp3",
 				cover: "/assets/music/cover/3.jpg",
-				lrc: "",
+				lrc: "/assets/music/lrc/3.lrc",
 			},
 		],
 	},
