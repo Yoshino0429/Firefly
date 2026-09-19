@@ -26,7 +26,7 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: false,
+	bilibili: true,
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
 	title: "Na1ve",
 
 	// 站点副标题
-	subtitle: "Demo",
+	subtitle: "-DemoDESUWA",
 
 	// 站点 URL
 	site_url: "https://na1ve.com",
@@ -91,7 +91,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/Arisa.png",
 			// 可选，指定主题 'light' | 'dark'
 			// theme: "light",
 			// 可选，图标大小
