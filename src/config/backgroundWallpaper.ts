@@ -46,7 +46,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		mobile: [
 			"assets/images/MobileWallpaper/m1.jpg",
 			"assets/images/MobileWallpaper/m2.jpg",
-			"assets/images/MobileWallpaper/m3.jpg",
 		],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
@@ -65,12 +64,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "title",
+			title: "博客博客博客",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"subtitle",
+				"demo",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
