@@ -66,7 +66,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Gallery,
 
 			// 书签导航
-			LinkPresets.Booknav,
+			//LinkPresets.Booknav,
 
 			// 哔哩哔哩追番
 			LinkPresets.Bilibili,
